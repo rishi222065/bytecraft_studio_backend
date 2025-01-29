@@ -14,6 +14,7 @@ const getCart = async (req, res) => {
         res.status(500).json({ error: 'Internal Server Error' });
     }
 };
+// adsfasfasafs
 
 const addProductToCart = async (req, res) => {
     try {
