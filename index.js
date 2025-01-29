@@ -54,7 +54,7 @@ app.use('/artist', artistRoutes);
 app.use('/product-management',ProductRout );
 app.use('/uploads', express.static('uploads'));
 app.use('/api/buyers', buyerRoutes);
-app.use('/api/cart', cartRoutes);
+app.use('/cart', cartRoutes);
 app.use('/api/wishlist', wishlistRoutes);
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
